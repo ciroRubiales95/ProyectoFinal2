@@ -9,6 +9,10 @@ public class Main {
     static int counter2 = 0;
     public static void main(String[] args) {
         //explicamos las reglas y llamamos a la función round
+        extracted();
+    }
+
+    private static void extracted() {
         System.out.println("Piedra, papel o tijera:");
         System.out.println("Reglas: Cada jugador introducirá un valor\n" +
                         "númerico entre 1 y 3 por cada jugada.");
